@@ -21,7 +21,7 @@ def assign_rooms(speakers)
   rooms = [1,2,3,4,5,6,7]
   # hash = Hash.new
   speakers.each_with_index do |speaker, index|
-    message = "Hello, #{speaker}! You'll be assigned to room #{rooms[index]}!"
+    message = "Hello, #{speaker}! You'll be assigned to room #{index}!"
     new_array.push(message)
     end
     return new_array
